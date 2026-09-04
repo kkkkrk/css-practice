@@ -43,7 +43,7 @@
 .search-form>input:last-child{
     flex: 0 0 50px;
     background-color: gold;
-    font: bold;
+    font-size: bold;
     border: 0;
     border-radius: 0.4em;
 }
@@ -54,4 +54,15 @@
 .info-list-item::before{
     content: '»';
     margin-right: 0.5em;
+}
+.message-list-item::before{
+    display: inline-block;
+    background-image: url(./img/profile_400.jpg);
+    width: 3em;
+    height: 3em;
+    flex: 0 0 3em;
+    content: '';
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
 }
